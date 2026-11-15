@@ -22,7 +22,6 @@ public class PuntoReciclaje {
     @Column(nullable = false)
     private Integer capacidad;
 
-    // Constructores vacíos y con parámetros
     public PuntoReciclaje() {}
 
     public PuntoReciclaje(String nombre, String sector, String material, Integer capacidad) {
@@ -32,7 +31,6 @@ public class PuntoReciclaje {
         this.capacidad = capacidad;
     }
 
-    // Getters y Setters
     public Integer getId() { return id; }
     public void setId(Integer id) { this.id = id; }
 
